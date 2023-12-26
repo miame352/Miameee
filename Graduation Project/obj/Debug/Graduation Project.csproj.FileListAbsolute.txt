@@ -1,0 +1,6 @@
+C:\Users\DELL\Desktop\OB chapter\GP fall2023\Graduation Project\Graduation Project\bin\Graduation Project.dll.config
+C:\Users\DELL\Desktop\OB chapter\GP fall2023\Graduation Project\Graduation Project\bin\Graduation Project.dll
+C:\Users\DELL\Desktop\OB chapter\GP fall2023\Graduation Project\Graduation Project\bin\Graduation Project.pdb
+C:\Users\DELL\Desktop\OB chapter\GP fall2023\Graduation Project\Graduation Project\obj\Debug\Graduation Project.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\OB chapter\GP fall2023\Graduation Project\Graduation Project\obj\Debug\Graduation Project.dll
+C:\Users\DELL\Desktop\OB chapter\GP fall2023\Graduation Project\Graduation Project\obj\Debug\Graduation Project.pdb

@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Graduation_Project.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: #0099FF">
+    <form id="form1" runat="server">
+        <asp:Menu ID="MenuAdmin" runat="server" Orientation="Horizontal"></asp:Menu>
+        <asp:Menu ID="MenuStaff" runat="server" Orientation="Horizontal"></asp:Menu>
+        <asp:Menu ID="MenuGeneral" runat="server" Orientation="Horizontal" style="font-weight: 700; font-size: x-large; background-color: #FFCCFF;">
+            <Items>
+                <asp:MenuItem NavigateUrl="~/Home.aspx" Text="Home" Value="Home"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Login.aspx" Text="Login" Value="Login"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Regster.aspx" Text="Regster" Value="Regster"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/AlumniRequest.aspx" Text="AlumniRequest" Value="AlumniRequest"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/InviteData.aspx" Text="InviteData" Value="InviteData"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        <br />
+        <asp:Label ID="lblWelcome" runat="server"></asp:Label>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
